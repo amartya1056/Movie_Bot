@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 
 # Set your Gemini API key
-GEMINI_API_KEY = "AIzaSyDlB0kdO6yuagBE-yGaG_GbfxflZlhYyOI"
+GEMINI_API_KEY = "Your Gemini API Key"
 if not GEMINI_API_KEY:
     raise ValueError("GEMINI_API_KEY environment variable is missing")
 
